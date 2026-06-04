@@ -8,7 +8,7 @@
     --color-yellow: #FFE100;
     --color-red: #E22A00;
     --color-super-white: #FFFFFF;
-    --color-gray: #444543;
+    --color-gray: #404040;
     --color-darkgray: #303030;
     --color-salmon: #FF7D60;
 
@@ -240,7 +240,7 @@ a:hover {
 
 /* メインビジュアル */
 .c-mv-area {
-    background: url(../img/mv.png) no-repeat center / cover;
+    background: url(../img/image01.jpg) no-repeat center / cover;
     height: 680px;
     padding-block: 200px;
     display: flex;
@@ -257,13 +257,14 @@ a:hover {
 
 .c-main-copy__text {
     font-family: 'Zen Antique', serif;
-    text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.25);
+    text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.5);
     font-size: clamp(var(--fz-40px), 31.549px + 2.254vw, var(--fz-64px));
     ;
 }
 
 .l-mv-event-info {
     background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
     width: 100%;
 }
 
